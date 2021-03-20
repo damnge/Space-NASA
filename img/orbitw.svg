@@ -1,0 +1,14 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 202px; height: 202px;"><style>
+     .line-orbit1-a {animation:line-orbit1 5s linear infinite; transform-origin: 50px 50px;}
+     .line-orbit1-b {animation:line-orbit1 5.1s linear infinite; transform-origin: 50px 50px;}
+     .line-orbit1-c {animation:line-orbit1 5.2s linear infinite; transform-origin: 50px 50px;}
+     .line-orbit1-d {animation:line-orbit1 4.3s linear infinite; transform-origin: 50px 50px;}
+     @keyframes line-orbit1 {
+         100%{transform: rotate(360deg);}
+     }
+     @media (prefers-reduced-motion: reduce) {
+         .line-orbit1-a, .line-orbit1-b, .line-orbit1-c, .line-orbit1-d {
+             animation: none;
+         }
+     }
+    </style><circle class="stroke1 fill1" cx="50" cy="50" r="36" fill="rgba(255,255,255,0)" stroke="rgba(255,255,255,1)" stroke-width="1.5px" style="animation-duration: 4.8s;"></circle><circle class="stroke1 fill1" cx="50" cy="50" r="25" fill="rgba(255,255,255,0)" stroke="rgba(255,255,255,1)" stroke-width="1.5px" style="animation-duration: 4.8s;"></circle><circle class="stroke1 fill1" cx="50" cy="50" r="13" fill="rgba(255,255,255,0)" stroke="rgba(255,255,255,1)" stroke-width="1.5px" style="animation-duration: 4.8s;"></circle><circle class="line-orbit1-d stroke2 fill2" cx="70" cy="35" r="4" fill="rgba(255,255,255,1)" stroke="rgba(255,255,255,1)" stroke-width="1.5px" style="animation-duration: 4.8s;"></circle><circle class="line-orbit1-c stroke2 fill2" cx="82" cy="66" r="4" fill="rgba(255,255,255,1)" stroke="rgba(255,255,255,1)" stroke-width="1.5px" style="animation-duration: 4.8s;"></circle><circle class="line-orbit1-b stroke2 fill2" cx="30" cy="20" r="4" fill="rgba(255,255,255,1)" stroke="rgba(255,255,255,1)" stroke-width="1.5px" style="animation-duration: 4.8s;"></circle><circle class="line-orbit1-a stroke2 fill2" cx="26" cy="77" r="6" fill="rgba(255,255,255,1)" stroke="rgba(255,255,255,1)" stroke-width="1.5px" style="animation-duration: 4.8s;"></circle></svg>

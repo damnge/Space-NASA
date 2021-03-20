@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photos from Space made by NASA">
+    <meta name="keywords" content="NASA, Space, Planets, Cosmos">
+    <meta name="author" content="Dam Grela">
+    <title>Space Pictures</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=www.nasa.gov">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader hidden">
+        <img class="space" src="img/SPACE.svg" alt="space logo">
+        <img class="orbit" src="img/orbitw.svg" alt="Orbit Loading Animation">
+    </div>
+<header id="nav-bar">
+    <div class="navigation-container">
+        <div class="logo">
+            <img src="img/nasalogo.svg" onclick="getNasaPictures()" alt="">
+        </div>
+        <!-- Results Nav -->
+        <div class="nav-menu">
+            <span class="navigation-items" id="resultsNav">
+                <h3 class="link link--line" onclick="updateDOM('favorites')">favorites</h3>
+                <button class="button button--load"> <div class="button__bg"></div><span onclick="getNasaPictures()">
+                Load More
+            </span></button>
+            </span>
+            <!-- Favorites Nav -->
+            <span class="navigation-items hidden" id="favoritesNav">
+                <h3 class="link link--line" onclick="getNasaPictures()">Space Images</h3>
+            </span>
+        </div>
+    </div>
+</header>
+<section id="nasa-pictures">
+    <!-- Container -->
+    <div class="container">
+        
+        <!-- Images Container -->
+        <div class="images-container"></div>
+    </div>
+    <!-- Save Confirmation -->
+    <div class="save-confirmed" hidden>
+        <h3>Added</h3>
+    </div>
+</section>
+<footer id="call-to-action">
+    <!-- <div class="divider"></div> -->
+     <div class="container center">
+         <h1>Want to see similar projects?</h1>
+         <p>Check out my GitHub</p>
+         <div class="links">
+             <i class="fab fa-github"></i>
+         </div>
+         <div class="copyright">© damgrela</div>
+     </div>
+ </footer>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
