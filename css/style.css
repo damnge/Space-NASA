@@ -31,6 +31,22 @@ button:focus {
   outline: none;
 }
 
+::-webkit-scrollbar {
+  width: 19px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border: 1px solid #c4c4c4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border: 4px solid whitesmoke;
+  border-radius: 15px;
+}
+
 /* LOADING ANIMATION */
 .loader {
   background: black;
@@ -475,6 +491,7 @@ button:focus {
   color: white;
   font-size: 18px;
   font-weight: 300;
+  font-family: "Jura", sans-serif;
 }
 
 .links i {
